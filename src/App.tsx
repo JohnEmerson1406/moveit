@@ -1,6 +1,16 @@
+import { Button } from './components/Button'
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <h1>Hello World</h1>
+      <Button color="red">
+        botao vermelho
+      </Button>
+      <Button color="blue">
+        botao azul
+      </Button>
+    </div>
   );
 }
 
